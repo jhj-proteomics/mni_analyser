@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the data from a CSV file
-data = pd.read_csv("C:/Users/skl448/Desktop/python/scripts/assemblage_generator/test_assemblage.csv")
+data = pd.read_csv("test_assemblage.csv")
 
 # Calculate the number of bones for each species and side
 counts = data.groupby(['species', 'side'])['bone'].count()
