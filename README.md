@@ -1,5 +1,5 @@
-# mni_analyser
-Calculates MNI based on zooarchaeological data. 
+mni_analyser calculates Minimum Number of Invidividuals (MNI) based on a set of zooarchaeological data.
 
-The purpose of mni_analyser.py is to calculate the Minimum Number of Individuals (MNI) in a zooarchaeological assemblage. 
-Because of the requirements of my own specific research it is focused on mandibles. 
+Secondary to calculating MNI, the purpose of mni_analyser is to automatically identify bone elements in a zooarchaeological assemblage likely to be from a single, unique individual. This is paramount when performing biomolecular analyses as we want to avoid sampling the same individual twice. 
+
+This script is based on the requirements for my specific research and may therefore not be suitable for all users. However you are free to change, update and edit the code as required.
